@@ -1,0 +1,5 @@
+{
+    "copy-from-package": {
+        "resources/bin/": "%BIN_DIR%/"
+    }
+}

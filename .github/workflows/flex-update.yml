@@ -1,0 +1,21 @@
+name: Update Flex endpoint
+
+# Regenerates the Flex endpoint (index.json etc.) in the flex/main branch
+# with Symfony's own tooling, whenever a recipe changes on main.
+
+on:
+    push:
+        branches:
+            - main
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+jobs:
+    call-flex-update:
+        uses: symfony/recipes/.github/workflows/callable-flex-update.yml@main
+        with:
+            contrib: true
+        secrets:
+            token: ${{ secrets.GITHUB_TOKEN }}
