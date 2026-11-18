@@ -1,0 +1,13 @@
+{
+    "manifests": {
+        "elkuku/symfony-utils": {
+            "manifest": {
+                "copy-from-package": {
+                    "resources/bin/": "%BIN_DIR%/"
+                }
+            },
+            "files": [],
+            "ref": "9550f40d81d1680ce214e530a0f2cada9c0c2a7f"
+        }
+    }
+}
