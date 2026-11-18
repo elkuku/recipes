@@ -4,7 +4,7 @@ Custom [Symfony Flex](https://symfony.com/doc/current/setup/flex.html) recipes f
 
 | Package                                                          | What the recipe does                                                           |
 |------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [elkuku/symfony-utils](https://github.com/elkuku/symfony-utils) | Copies the dev environment scripts (`install`, `start`, `stop`) into `bin/` |
+| [elkuku/symfony-utils](https://github.com/elkuku/symfony-utils) | Copies the dev and deploy scripts (`install`, `start`, `stop`, `deploy`) into `bin/`|
 
 ## Usage
 
